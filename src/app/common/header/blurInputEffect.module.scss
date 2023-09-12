@@ -1,0 +1,42 @@
+.inputWrapper__header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  border-radius: 22px;
+  background: var(--White, #FFF);
+  box-shadow: 4px 6px 18px 0 rgba(75, 61, 69, 0.20);
+  width: 420.5px;
+  height: 44px;
+  .input {
+    border: unset;
+    width: 100%;
+  }
+  .input:focus {
+    outline: none;
+    .input-button{
+      background: var(--Orange_links, #FF5C00);
+    }
+  }
+}
+
+  .inputButton{
+    color: var(--White, #FFF);
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+    border-radius: 20px;
+    background: var(--Pink, #F1EAEE);
+    border: unset;
+    margin: 3px 4px 3px 0;
+    width: 75px;
+    height: 36px;
+    padding: 10px 14px;
+  }
+
+  .blur {
+    filter: blur(4px);
+    transition: backdrop-filter 0.3s ease-in-out;
+  }

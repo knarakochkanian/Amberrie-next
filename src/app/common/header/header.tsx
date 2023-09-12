@@ -1,9 +1,9 @@
 'use client'
 import React from "react";
 import Link from "next/link";
-import styles from 'src/app/common/header/header.module.scss'
+import styles from './header.module.scss'
 import Image from "next/image";
-import BlurInputEffect from "src/app/common/input";
+import BlurInputEffect from "./blurInputEffect";
 
 interface Logo {
     id: number;
