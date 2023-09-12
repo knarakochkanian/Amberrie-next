@@ -1,0 +1,33 @@
+
+.main{
+    display: flex;
+    padding-top: 34px;
+    background-image: url("~/public/home/home-background.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    height: 600px;
+}
+.main > h1 {
+         color: #252525;
+         font-family: Roboto, sans-serif;
+         font-size: 58px;
+         font-style: normal;
+         font-weight: 700;
+         line-height: 117%; /* 67.86px */
+         letter-spacing: -1.16px;
+     }
+.home-description{
+    padding-top: 10px;
+    color: #252525;
+    font-family: Roboto, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140%; /* 28px */
+}
+.homeWrapper{
+    max-width: 593px;
+    width: 100%;
+    justify-content: start;
+}
