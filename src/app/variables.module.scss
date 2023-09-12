@@ -1,0 +1,19 @@
+$background-color: #F1EAEE;
+$background-color-grey: var(--white-50, rgba(255, 255, 255, 0.50));
+$background-color-white: var(--White, #FFF);
+:export {
+  backgroundColor: $background-color;
+  backgroundColorGrey: $background-color-grey;
+}
+
+@mixin reset-list {
+  list-style: none;
+  padding-inline-start: 0;
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+@mixin container{
+  max-width: 1290px;
+  width: 100%;
+  margin: 0 auto;
+}

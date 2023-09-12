@@ -1,23 +1,15 @@
-
+@import "variables.module.scss";
 .main{
     display: flex;
-    padding-top: 34px;
+    justify-content: center;
+    padding: 34px 0 96px 0;
     background-image: url("~/public/home/home-background.svg");
     background-repeat: no-repeat;
-    background-size: cover;
-    justify-content: center;
-    height: 600px;
+    background-position: top;
+    margin: auto;
 }
-.main > h1 {
-         color: #252525;
-         font-family: Roboto, sans-serif;
-         font-size: 58px;
-         font-style: normal;
-         font-weight: 700;
-         line-height: 117%; /* 67.86px */
-         letter-spacing: -1.16px;
-     }
-.home-description{
+
+.homeDescription{
     padding-top: 10px;
     color: #252525;
     font-family: Roboto, sans-serif;
@@ -25,9 +17,20 @@
     font-style: normal;
     font-weight: 500;
     line-height: 140%; /* 28px */
+    max-width: 494px;
 }
 .homeWrapper{
-    max-width: 593px;
+    max-width: 600px;
     width: 100%;
     justify-content: start;
+  &Title{
+    color: #252525;
+    font-size: 58px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 117%; /* 67.86px */
+    letter-spacing: -1.16px;
+    max-width: 593px;
+    width: 100%;
+  }
 }

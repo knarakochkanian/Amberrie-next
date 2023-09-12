@@ -1,3 +1,73 @@
+@import "src/app/variables.module";
+
 .navbar{
-  li {list-style:none;}
+  display: flex;
+  max-width: 1290px;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  gap: 28px;
+  padding: 7px 0 9px;
+  background-color: var(--white-50, rgba(255, 255, 255, 0.50));
+  margin: 0 auto;
+  @include reset-list;
+
+    li {
+      list-style: none;
+      >a{
+        color: var(--black-40, rgba(0, 0, 0, 0.40));
+        text-align: right;
+        font-family: Roboto, sans-serif;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 441;
+        line-height: 100%; /* 16px */
+        text-transform: lowercase;
+        text-decoration: unset;
+      }
+
+    }
+}
+.logoContainer {
+  padding: 26px 0;
+  justify-content: space-between;
+  display: flex;
+  gap: 9px;
+  align-items: center;
+  @include reset-list;
+  @include container;
+  ul{
+    padding-inline-start: 0;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    display: flex;
+    gap: 9px;
+    button{
+      border: none;
+      border-radius: 50%;
+      width: 44px;
+      height: 44px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: $background-color-white;
+      cursor: pointer;
+
+    }
+  }
+  li {
+    list-style: none;
+    text-decoration: unset;
+  }
+
+}
+.avatarContainer{
+  gap: 14px;
+  display: flex;
+}
+.logoWrapper{
+  background-color: $background-color;
+  padding-bottom: 45px;
 }
