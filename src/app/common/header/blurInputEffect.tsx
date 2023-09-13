@@ -27,7 +27,7 @@ export default function BlurInputEffect()  {
                 <button className={styles.inputButton}>Найти</button>
             </div>
 
-            <div className={`container ${isBlur ? 'blur' : ''}`}>Содержимое страницы</div>
+            {/*<div className={`container ${isBlur ? 'blur' : ''}`}>Содержимое страницы</div>*/}
         </div>
     );
 };
